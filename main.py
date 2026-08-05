@@ -54,12 +54,18 @@ while loop:
         pos_x_inimigo += vel_player
     if teclas[pygame.K_a]:
         pos_x_inimigo -= vel_player
+
+    # Área em teste
+
     # Não deixa o player sair do cenário
         #pos_y_player = 592
     # if pos_y_player >= 200:
     #     pos_y_player = 200
     if pos_x_player <= -35:
         pos_x_player = -35
+
+    # Área em teste
+    
     # if pos_x_player >= 400:
     #    pos_x_player = 400
     # Não deixa o inimigo/player 2 sair do cenário
